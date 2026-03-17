@@ -61,12 +61,15 @@ aside img {
 }
 
 main img {
+    position: relative;
     width: 100px;
     height: var(--height);
     border: 1px solid black;
     padding: 2px;
     box-shadow: var(--box-shadow);
     float: right;
+    top: -29.5px;
+
 }
 
 footer {
