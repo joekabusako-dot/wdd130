@@ -75,7 +75,7 @@ h1 {
     position: absolute;
     top: 380px;
     left: 5px;
-    color: white;
+    color: var(--secondary-color);
 
     background-color: #333;
     border: 2px solid #333233;
