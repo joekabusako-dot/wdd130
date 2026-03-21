@@ -23,6 +23,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    margin: 1rem;
 }
 
 img {
@@ -35,6 +36,7 @@ img {
 
 p {
     padding: 0;
+    margin: 1rem;
 }
 
 main {
@@ -47,6 +49,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: var(--text-align);
+    position: relative
 }
 
 aside h2 {
@@ -68,8 +71,8 @@ main img {
     padding: 2px;
     box-shadow: var(--box-shadow);
     float: right;
-    top: -29.5px;
-
+    top: -28px;
+    margin: 0 0 1rem 1rem;
 }
 
 footer {
@@ -86,4 +89,8 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
