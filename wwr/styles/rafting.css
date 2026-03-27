@@ -33,7 +33,7 @@ h2 {
 }
 
 h2 {
-    background-color: none;
+    background-color: white;
     color: #333;
     text-align: center;
 }
@@ -79,6 +79,7 @@ footer {
 
 .socialmedia a {
     display: flex;
+    text-decoration: none;
 
 }
 
