@@ -49,7 +49,7 @@ header {
     align-items: center;
 
     margin-bottom: 10px;
-    border: 1.5px solid #333;
+    /*border: 1.5px solid #333;*/
 }
 
 section {
@@ -105,13 +105,13 @@ footer {
 }
 
 h1 {
-    position: absolute;
+    /*position: absolute;*/
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 0;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
+    /*opacity: 0.7;*/
+    background-color: none;
     color: var(--accent2-color);
 }
 
@@ -190,4 +190,92 @@ nav a {
 .history-cont p {
     line-height: 1.5;
     text-align: justify;
+}
+
+/* === HEADER STYLE (purple bar like wireframe) === */
+header {
+    background-color: #b9a7d6;
+    border: 1px solid #999;
+}
+
+header nav a {
+    background: #eee;
+    padding: 0.5rem 1rem;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+/* === COMPANY INFO CENTERED === */
+main p {
+    text-align: center;
+    margin: 0.2rem;
+}
+
+/* === MAP + FORM SIDE BY SIDE === */
+.map-form {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.map {
+    flex: 1;
+}
+
+form {
+    flex: 1;
+}
+
+/* === RADIO BUTTON GROUP === */
+form label input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+form label {
+    display: block;
+}
+
+/* === BUTTON FULL WIDTH === */
+form button {
+    width: 100%;
+}
+
+/* === TEAM SECTION BOX === */
+section {
+    border: 1px solid #999;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+/* === EMPLOYEE IMAGES LIKE WIREFRAME === */
+.adventures img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* === FOOTER PURPLE === */
+footer {
+    background-color: #b9a7d6;
+    border: 1px solid #999;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 2rem;
+    /* espace avec le header */
+    color: #222;
+    /* évite le jaune bizarre */
+}
+
+/* Assure que le header ne chevauche rien */
+header {
+    position: relative;
+
 }
