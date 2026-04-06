@@ -150,6 +150,7 @@ nav a {
 .adventures {
     display: flex;
     justify-content: space-between;
+    text-align: center;
     gap: 1rem;
 }
 
@@ -162,6 +163,7 @@ nav a {
     height: 120px;
     object-fit: cover;
     border-radius: 5px;
+
 }
 
 .history-cont {
