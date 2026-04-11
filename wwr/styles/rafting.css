@@ -195,13 +195,11 @@ header nav a {
     border-radius: 3px;
 }
 
-/* === COMPANY INFO CENTERED === */
 main p {
     text-align: center;
     margin: 0.2rem;
 }
 
-/* === MAP + FORM SIDE BY SIDE === */
 .map-form {
     display: flex;
     gap: 2rem;
@@ -243,7 +241,7 @@ section h2 {
 main h1 {
     text-align: center;
     margin-top: 2rem;
-    color: #222;
+    color: var(--primary-color, #006699);
 
 }
 
@@ -331,12 +329,6 @@ main h1 {
 
 .contact-cta {
     position: relative;
-}
-
-main h1 {
-    text-align: center;
-    color: var(--primary-color, #006699);
-    margin-top: 30px;
 }
 
 .contact-cta {
